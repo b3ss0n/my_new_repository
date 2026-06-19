@@ -1,0 +1,32 @@
+# Данные и базы данных
+data/
+*.csv
+*.tsv
+*.parquet
+*.sqlite
+*.db
+
+# Веса моделей и сериализованные объекты
+models/
+*.pkl
+*.pt
+*.h5
+*.joblib
+
+# Виртуальные окружения
+.venv/
+venv/
+env/
+
+# Секреты и конфигурации
+.env
+secrets.json
+
+# Артефакты Jupyter и IDE
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# Кэш Python
+__pycache__/
+*.pyc
